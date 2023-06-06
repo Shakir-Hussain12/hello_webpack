@@ -5,7 +5,7 @@ import Message from './Message'
 const App = () => {
     return (
         <Routes>
-            <Route exact path="/" component={Message} />
+            <Route exact path="/" Component={Message} />
         </Routes>
     )
 }
