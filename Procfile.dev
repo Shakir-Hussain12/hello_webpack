@@ -1,0 +1,2 @@
+web: ruby -e "ENV['PORT'] = nil" && rails server
+js: yarn build --watch
